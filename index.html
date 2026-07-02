@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sashikala— Anchor Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <span class="brand-dot"></span>
+      <span id="navName">Anchor</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#lineup">The Lineup</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- <button class="admin-toggle" id="adminToggle">+ Add Event</button> -->
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="confetti-field" id="confettiField"></div>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <!-- <span class="hero-eyebrow" id="heroEyebrow">Now Booking 2026</span> -->
+      <h1 class="hero-name" id="heroName">Anchor<br>Sashikala</h1>
+      <p class="hero-title" id="heroTitle">TV &amp; Event Anchor</p>
+      <p class="hero-tagline" id="heroTagline"></p>
+      <div class="hero-cta-row">
+        <a href="#gallery" class="btn btn-primary">Watch Highlights</a>
+        <a href="#lineup" class="btn btn-outline">See The Lineup</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-ring"></div>
+      <div class="hero-photo" id="heroPhoto">
+        <span id="heroInitials">AR</span>
+      </div>
+      <!-- <div class="hero-badge">🎤 On Stage</div> -->
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-head">
+    <span class="tag tag-violet">About</span>
+    <h2>Meet Sashikala</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-card reveal">
+      <p class="about-bio" id="profileBio"></p>
+      <div class="skills-row" id="skillsRow"></div>
+      <div class="about-meta">
+        <div><span class="meta-label">📍 Based in</span><span id="profileLocation"></span></div>
+        <div><span class="meta-label">✉️ Email</span><a id="profileEmail" href="#"></a></div>
+        <div><span class="meta-label">📞 Phone</span><span id="profilePhone"></span></div>
+      </div>
+    </div>
+
+    <div class="stats-grid" id="statsGrid"></div>
+  </div>
+</section>
+
+<!-- LINEUP / EVENTS -->
+<section class="section lineup-section" id="lineup">
+  <div class="section-head">
+    <span class="tag tag-magenta">Events</span>
+    <h2>The Lineup</h2>
+    <p class="section-sub">Every show, wedding, launch and award night — tap a card for the story and photos. For more information checkout my instagaram and youtube channel which are provided in the contact section.</p>
+  </div>
+
+  <div class="filter-row" id="filterRow"></div>
+
+  <div class="lineup-grid" id="lineupGrid"></div>
+</section>
+
+<!-- GALLERY -->
+<section class="section gallery-section" id="gallery">
+  <div class="section-head">
+    <span class="tag tag-amber">Gallery</span>
+    <h2>The Wall</h2>
+    <!-- <p class="section-sub">Snapshots and clips from every stage she's owned.</p> -->
+  </div>
+  <div class="photo-wall" id="photoWall"></div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="contact-panel">
+    <div class="contact-confetti"></div>
+    <span class="tag tag-teal">Get In Touch</span>
+    <h2>Let's bring her energy to your stage</h2>
+    <p class="section-sub">Available for TV segments,Celebrity Events,Pre Release Events,Sangeet & Mehandi,weddings & receptions,Cultural Programs,Corporate events,promotional events,Get togethers,Audio Launches,School & College events,Kitty parties & Social Events and awards functions.</p>
+    <div class="contact-actions">
+      <div class="contact-phone" id="contactPhone"></div>
+      <div class="socials" id="socialsRow"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="brand-dot"></span>
+    <span id="footerName"></span>
+    <span class="footer-dot">·</span>
+    <span id="footerYear"></span>
+  </div>
+</footer>
+
+<!-- ADD EVENT MODAL -->
+<!-- <div class="modal-backdrop" id="modalBackdrop">
+  <form class="modal" id="addEventForm">
+    <div class="modal-head">
+      <span class="tag tag-violet">New Event</span>
+      <button type="button" class="modal-close" id="modalClose">&times;</button>
+    </div>
+    <h3>Add to the lineup</h3>
+
+    <label>Event title
+      <input type="text" name="title" required placeholder="e.g. City Marathon Flag-off">
+    </label>
+
+    <div class="form-row">
+      <label>Category
+        <input type="text" name="category" required placeholder="e.g. Corporate">
+      </label>
+      <label>Date
+        <input type="date" name="date" required>
+      </label>
+    </div>
+
+    <label>Venue
+      <input type="text" name="venue" placeholder="e.g. Hitex, Hyderabad">
+    </label>
+
+    <label>Short description
+      <textarea name="description" rows="3" placeholder="What happened, what you did"></textarea>
+    </label>
+
+    <label>Add photos or a video
+      <input type="file" name="media" accept="image/*,video/*" multiple>
+    </label>
+    <p class="form-hint">You can select multiple photos/videos at once. They're stored in this browser only — see the README for making this permanent.</p>
+
+    <button type="submit" class="btn btn-primary full-width">Add to the lineup</button>
+  </form>
+</div> -->
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
