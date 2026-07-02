@@ -1,66 +1,106 @@
-# Ananya Rao — Anchor Portfolio (Colorful Edition)
+# 🎤 Sashikala – Professional Anchor Portfolio Website
 
-A one-page portfolio built around a vibrant, festival/stage energy —
-gradient hero text, a spinning color ring around her photo, floating
-confetti, and event cards that are automatically color-coded by
-category (so "Wedding," "Corporate," "Award Show" etc. each get their
-own consistent color across the whole site). Plain HTML/CSS/JS, no
-frameworks, no build step.
+A modern, responsive portfolio website designed for **Sashikala**, a professional event anchor, to showcase her talent, experience, and the wide range of events she has successfully hosted.
 
-## Files
-- `index.html` — page structure
-- `style.css` — all styling
-- `script.js` — renders `data.js` onto the page, powers filters, the
-  photo wall, the lightbox, and the "Add Event" form
-- `data.js` — **the file you'll actually edit day to day**
+The website serves as a digital portfolio where visitors can learn about Sashikala, explore her services, browse event galleries, and connect with her for future events.
 
-## How to run it in VS Code
-1. Open this folder in VS Code (`File > Open Folder`).
-2. Install the **Live Server** extension (Extensions sidebar → search
-   "Live Server" by Ritwick Dey → Install).
-3. Right-click `index.html` → **"Open with Live Server"**.
-4. It opens at `http://127.0.0.1:5500` and refreshes automatically
-   whenever you save a file.
+---
 
-(You can also just double-click `index.html` to open it directly in a
-browser — fine for browsing, but Live Server is more reliable once
-you start using the "+ Add Event" button.)
+## ✨ Features
 
-## Adding your real details (recommended, permanent)
-Open `data.js`:
-- Edit the `PROFILE` object — name, title, tagline, bio, email, phone,
-  socials, stats.
-- Set `photo: "assets/profile.jpg"` once you have a headshot — create
-  a folder named `assets/` next to `index.html` and put images there.
-- Add entries to the `EVENTS` array for each event. For each photo or
-  video, set `src` to a path like `"assets/event1-photo1.jpg"`.
-  Leave `src: ""` and it'll show as a placeholder until filled in.
-- Reuse the same category names across events (e.g. always "Wedding")
-  so the color-coding stays consistent site-wide.
+- 🎙️ Professional introduction and profile
+- 💍 Showcases multiple event categories including:
+  - Weddings
+  - Corporate Events
+  - College Events
+  - Cultural Programs
+  - Award Ceremonies
+  - Birthday Celebrations
+  - Kitty Parties
+  - Product Launches
+  - Private & Social Events
+- 📸 Event gallery with photos and videos
+- 🎨 Modern and attractive user interface
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- ⚡ Smooth animations and interactive effects
+- 📞 Contact section with social media links
+- 🌈 Clean, elegant, and visually appealing layout
 
-This method is permanent and shows up for every visitor.
+---
 
-## Adding events on the fly (the "+ Add Event" button)
-Lets Ananya add a new event — with photos/videos picked straight from
-her device — without touching code.
+## 🛠️ Technologies Used
 
-**Limitation:** this is saved in the browser's local storage, so it
-only shows up on the same browser/device it was added from, not for
-other visitors. Use it as a quick buffer, then copy the details into
-`data.js` later to make them permanent and visible to everyone
-(open DevTools → Application → Local Storage → copy the
-`anchor_portfolio_custom_events_v2` key).
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
-## Making it live for everyone
-For events to persist across all visitors automatically, this static
-site would need a small backend or a service like a headless CMS or
-a Google Sheet acting as a database. This version is a fully working,
-deployable front end — you can host it for free on GitHub Pages,
-Netlify, or Vercel by uploading these files. Happy to help wire up a
-backend later if you want that.
+No external frameworks or libraries are required.
 
-## Customizing further
-- All colors and fonts live in the `:root` variables at the top of
-  `style.css`.
-- Category filter chips and their colors are generated automatically
-  from whatever categories appear in `data.js`.
+---
+
+## 📂 Project Structure
+
+```
+Sashikala-Portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── data.js
+├── assets/
+│   ├── images/
+│   └── videos/
+└── README.md
+```
+---
+
+## 🎯 Purpose of the Website
+
+This portfolio website was developed to provide an online presence for **Anchor Sashikala**, allowing potential clients and event organizers to:
+
+- Learn about her professional journey
+- Explore the various events she has hosted
+- View event photos and highlights
+- Discover the services she offers
+- Contact her easily for bookings and collaborations
+
+The website acts as a complete digital portfolio, helping showcase her experience, personality, and professionalism.
+
+---
+## 🌟 Highlights
+
+- Responsive Design
+- User-Friendly Interface
+- Elegant Animations
+- Interactive Event Showcase
+- Fast Loading
+- Easy to Customize
+- Professional Portfolio Presentation
+
+---
+## 📸 Website Preview
+
+The website includes sections such as:
+
+- Home
+- About
+- Services
+- Event Gallery
+- Testimonials
+- Contact
+
+Each section is carefully designed to provide visitors with a complete overview of Sashikala's work and achievements as a professional anchor.
+
+---
+## 👩‍💻 Developed By
+
+**Grandhi Ranga MadhuPriya**
+
+GitHub: https://github.com/madhupriya20049
+
+LinkedIn: https://www.linkedin.com/in/grandhi-ranga-madhupriya-5032b5335
+
+---
+## 📄 License
+
+This project is created for portfolio and professional showcase purposes.
