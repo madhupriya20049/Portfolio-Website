@@ -51,7 +51,7 @@ Sashikala-Portfolio/
 │   ├── images/
 │   └── videos/
 └── README.md
-```
+
 ---
 
 ## 🎯 Purpose of the Website
@@ -104,3 +104,8 @@ LinkedIn: https://www.linkedin.com/in/grandhi-ranga-madhupriya-5032b5335
 ## 📄 License
 
 This project is created for portfolio and professional showcase purposes.
+
+## 📄 License
+
+This project is created for portfolio and professional showcase purposes.
+

@@ -1,8 +1,3 @@
-/* ============================================================
-   SCRIPT.JS — renders data.js onto the page and powers all
-   interactions. You should not need to edit this file.
-   Edit data.js instead.
-   ============================================================ */
 
 (function () {
   "use strict";
@@ -241,57 +236,6 @@
     }
     document.querySelectorAll(".reveal:not(.in)").forEach(el => observer.observe(el));
   }
-
-  /* ---------- ADMIN: ADD EVENT ---------- */
-  // function setupAdmin() {
-  //   const backdrop = document.getElementById("modalBackdrop");
-  //   document.getElementById("adminToggle").addEventListener("click", () => backdrop.classList.add("open"));
-  //   document.getElementById("modalClose").addEventListener("click", () => backdrop.classList.remove("open"));
-  //   backdrop.addEventListener("click", (e) => { if (e.target === backdrop) backdrop.classList.remove("open"); });
-
-  //   document.getElementById("addEventForm").addEventListener("submit", async (e) => {
-  //     e.preventDefault();
-  //     const form = e.target;
-  //     const fd = new FormData(form);
-  //     const files = fd.getAll("media").filter(f => f && f.size > 0);
-  //     const media = await Promise.all(files.map(fileToMedia));
-
-  //     const newEvent = {
-  //       id: "ev-" + Date.now(),
-  //       title: fd.get("title"),
-  //       category: fd.get("category") || "General",
-  //       date: fd.get("date") || new Date().toISOString().slice(0, 10),
-  //       venue: fd.get("venue"),
-  //       description: fd.get("description"),
-  //       media
-  //     };
-
-  //     const custom = getCustomEvents();
-  //     custom.push(newEvent);
-  //     saveCustomEvents(custom);
-
-  //     allEvents = [...EVENTS, ...custom].sort((a, b) => new Date(b.date) - new Date(a.date));
-
-  //     renderFilters();
-  //     renderLineup();
-  //     renderPhotoWall();
-
-  //     form.reset();
-  //     backdrop.classList.remove("open");
-  //   });
-  // }
-
-  // function fileToMedia(file) {
-  //   return new Promise((resolve) => {
-  //     const reader = new FileReader();
-  //     reader.onload = () => resolve({
-  //       type: file.type.startsWith("video") ? "video" : "image",
-  //       src: reader.result,
-  //       caption: file.name
-  //     });
-  //     reader.readAsDataURL(file);
-  //   });
-  // }
 
   /* ---------- utils ---------- */
   function escapeHTML(str) {

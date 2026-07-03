@@ -1,9 +1,3 @@
-/* ============================================================
-   DATA FILE — this is the only file you need to touch regularly.
-   Add your real details, events, images and videos here.
-   Everything on the site reads from this file automatically.
-   ============================================================ */
-
 const PROFILE = {
   name: "Anchor Sashikala",
   title: "TV & Event Anchor",
@@ -27,12 +21,6 @@ const PROFILE = {
   skills: ["Promotional events","Celebrity Events","Corporate Events", "Weddings", "Award Shows", "Product Launches", "Get together Events"]
 };
 
-/* Each event becomes one card in "The Lineup".
-   category controls its color automatically — reuse category names
-   across events (e.g. always "Wedding", not "Weddings" sometimes)
-   so the color-coding stays consistent.
-   type: "image" or "video"
-   For video, src can be a YouTube/Vimeo embed URL, or a local video file path. */
 const EVENTS = [
   {
     id: "ev-001",
@@ -122,7 +110,3 @@ const EVENTS = [
     ]
   }
 ];
-
-/* Category filter chips and color-coding are generated automatically
-   from EVENTS, so you don't need to edit anything else when you add
-   a new category. */
