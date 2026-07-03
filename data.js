@@ -82,7 +82,7 @@ const EVENTS = [
       { type: "image", src: "assets/award1.jpeg", caption: "Award presentation" },
       { type: "image", src: "assets/award2.jpeg", caption: "Great Evening" },
       { type: "image", src: "assets/award3.jpeg", caption: "Award Presentation" },
-      { type: "video", src: "assets/award.mp4", caption: "My Falisitation" }
+      { type: "video", src: "assets/award.mp4", caption: "My Falicitation" }
     ]
   },
   {

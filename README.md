@@ -4,7 +4,7 @@ A modern, responsive portfolio website designed for **Sashikala**, a professiona
 
 The website serves as a digital portfolio where visitors can learn about Sashikala, explore her services, browse event galleries, and connect with her for future events.
 
----
+
 
 ## ✨ Features
 
@@ -26,7 +26,7 @@ The website serves as a digital portfolio where visitors can learn about Sashika
 - 📞 Contact section with social media links
 - 🌈 Clean, elegant, and visually appealing layout
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -36,11 +36,9 @@ The website serves as a digital portfolio where visitors can learn about Sashika
 
 No external frameworks or libraries are required.
 
----
 
 ## 📂 Project Structure
 
-```
 Sashikala-Portfolio/
 │
 ├── index.html
@@ -51,8 +49,6 @@ Sashikala-Portfolio/
 │   ├── images/
 │   └── videos/
 └── README.md
-
----
 
 ## 🎯 Purpose of the Website
 
@@ -66,7 +62,6 @@ This portfolio website was developed to provide an online presence for **Anchor 
 
 The website acts as a complete digital portfolio, helping showcase her experience, personality, and professionalism.
 
----
 ## 🌟 Highlights
 
 - Responsive Design
@@ -77,7 +72,6 @@ The website acts as a complete digital portfolio, helping showcase her experienc
 - Easy to Customize
 - Professional Portfolio Presentation
 
----
 ## 📸 Website Preview
 
 The website includes sections such as:
@@ -91,7 +85,6 @@ The website includes sections such as:
 
 Each section is carefully designed to provide visitors with a complete overview of Sashikala's work and achievements as a professional anchor.
 
----
 ## 👩‍💻 Developed By
 
 **Grandhi Ranga MadhuPriya**
@@ -100,12 +93,8 @@ GitHub: https://github.com/madhupriya20049
 
 LinkedIn: https://www.linkedin.com/in/grandhi-ranga-madhupriya-5032b5335
 
----
 ## 📄 License
 
 This project is created for portfolio and professional showcase purposes.
 
-## 📄 License
-
-This project is created for portfolio and professional showcase purposes.
 
